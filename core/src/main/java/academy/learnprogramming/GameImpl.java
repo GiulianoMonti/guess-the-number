@@ -17,10 +17,17 @@ public class GameImpl implements Game {
     private int remainingGuesses;
     private boolean validNumberRange = true;
 
-    // == constructors ==
-    public GameImpl(NumberGenerator numberGenerator) {
+    // == public methods ==
+
+    public void setNumberGenerator(NumberGenerator numberGenerator){
         this.numberGenerator = numberGenerator;
     }
+
+
+    // == constructors ==
+   /* public GameImpl(NumberGenerator numberGenerator) {
+        this.numberGenerator = numberGenerator;
+    }*/
 
     // == public methods ==
     @Override
