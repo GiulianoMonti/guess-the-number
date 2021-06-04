@@ -9,10 +9,10 @@
         <module name="core" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="core" target="11" />
-      <module name="guess-the-number-game" target="11" />
-      <module name="guess-the-number-game-3" target="10" />
-    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="core" options="--add-modules=java.xml.ws.annotation" />
+    </option>
   </component>
 </project>
