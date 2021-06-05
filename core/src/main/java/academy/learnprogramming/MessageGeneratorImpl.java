@@ -11,13 +11,14 @@ public class MessageGeneratorImpl implements MessageGenerator {
     @Autowired
     private Game game;
 
-    private int GuessCount = 10;
+    private int guessCount = 10;
 
     // == init ==
     @PostConstruct
-    public void init(){
+    public void init() {
         log.info("game = {}", game);
     }
+
     private String mainMessage;
     private String resultMessage;
 
@@ -27,16 +28,33 @@ public class MessageGeneratorImpl implements MessageGenerator {
     // == public methods ==
     @Override
     public String getMainMessage() {
-        return "getMainMessage() called";
+        return "Number is between " +
+                game.getSmallest() +
+                " and " +
+                game.getBiggest() +
+                ". Can you guess it?";
+
     }
 
     @Override
     public String getResultMessage() {
-        return "getResultMessage() called";
+
+        if(game.isGameWon()) {
+            return "You guessed it! The number was " + game.getNumber();
+        } else if(game.isGameLost()) {
+            return "You lost. The number was " + game.getNumber();
+        } else if(!game.isValidNumberRange()) {
+            return "Invalid number range!";
+        } else if(game.getRemainingGuesses() == guessCount) {
+            return "What is your first guess?";
+        } else {
+            String direction = "Lower";
+
+            if(game.getGuess() < game.getNumber()) {
+                direction = "Higher";
+            }
+
+            return direction + "! You have " + game.getRemainingGuesses() + " guess left";
+        }
     }
 }
-    /*In MessageGeneratorImpl
-    add a logger.
-        add a field of type Game and autowire it
-        add a field guessCount (int) and initialize it to 10 for now (we will change this later).
-        add a @PostConstruct method and log value of game to confirm it was autowired e.g. not null.*/
