@@ -10,11 +10,10 @@
         <module name="console" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="console" target="11" />
-      <module name="core" target="11" />
-      <module name="guess-the-number-game" target="11" />
-      <module name="guess-the-number-game-3" target="10" />
-    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="core" options="" />
+    </option>
   </component>
 </project>

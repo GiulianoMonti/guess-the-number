@@ -1,3 +1,5 @@
+package academy.learnprogramming.console;
+
 import academy.learnprogramming.AppConfig;
 import academy.learnprogramming.MessageGenerator;
 import academy.learnprogramming.NumberGenerator;
@@ -28,10 +30,10 @@ public class Main {
         log.info("number = {}", number);
 
         // get message generator bean from context (container)
-
-        MessageGenerator messageGenerator = context.getBean(MessageGenerator.class);
-        log.info("getMainMessage={}",messageGenerator.getMainMessage());
-        log.info("getResultMessage={}",messageGenerator.getResultMessage());
+        MessageGenerator messageGenerator =
+                context.getBean(MessageGenerator.class);
+        log.info("getMainMessage= {}", messageGenerator.getMainMessage());
+        log.info("getResultMessage= {}", messageGenerator.getResultMessage());
 
         // close context (container)
         context.close();

@@ -7,6 +7,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 import javax.annotation.PostConstruct;
 
 public class MessageGeneratorImpl implements MessageGenerator {
+
+    // == constants ==
+    private static final Logger log = LoggerFactory.getLogger(MessageGeneratorImpl.class);
+
     // == fields ==
     @Autowired
     private Game game;
@@ -18,13 +22,6 @@ public class MessageGeneratorImpl implements MessageGenerator {
     public void init() {
         log.info("game = {}", game);
     }
-
-    private String mainMessage;
-    private String resultMessage;
-
-    // == constants ==
-    private static final Logger log = LoggerFactory.getLogger(MessageGeneratorImpl.class);
-
     // == public methods ==
     @Override
     public String getMainMessage() {
@@ -33,7 +30,6 @@ public class MessageGeneratorImpl implements MessageGenerator {
                 " and " +
                 game.getBiggest() +
                 ". Can you guess it?";
-
     }
 
     @Override
