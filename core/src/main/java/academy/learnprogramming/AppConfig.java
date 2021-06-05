@@ -8,6 +8,11 @@ public class AppConfig {
 
     // == bean methods ==
     @Bean
+    public MessageGenerator messageGenerator(){
+        return new MessageGeneratorImpl();
+    }
+
+    @Bean
     public NumberGenerator numberGenerator() {
         return new NumberGeneratorImpl();
     }
