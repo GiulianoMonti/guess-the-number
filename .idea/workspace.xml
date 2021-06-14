@@ -4,7 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a5c3d8c-1617-4435-8c2a-bc59efd276d7" name="Default" comment="" />
+    <list default="true" id="5a5c3d8c-1617-4435-8c2a-bc59efd276d7" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/console/src/main/java/academy/learnprogramming/console/ConsoleNumberGuess.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/console/target/classes/academy/learnprogramming/console/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/console/target/classes/academy/learnprogramming/console/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/console/target/console-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/console/target/console-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/console/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/console/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/console/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/console/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/academy/learnprogramming/AppConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/academy/learnprogramming/AppConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/academy/learnprogramming/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/academy/learnprogramming/Game.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/academy/learnprogramming/GameImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/academy/learnprogramming/GameImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/academy/learnprogramming/MessageGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/academy/learnprogramming/MessageGenerator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/academy/learnprogramming/MessageGeneratorImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/academy/learnprogramming/MessageGeneratorImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/academy/learnprogramming/NumberGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/academy/learnprogramming/NumberGenerator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/academy/learnprogramming/NumberGeneratorImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/academy/learnprogramming/NumberGeneratorImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/core-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/core-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -98,6 +117,7 @@
     <option name="width" value="2560" />
     <option name="height" value="1413" />
   </component>
+  <component name="ProjectId" id="1twPIUqIM7zkAJ0YxlRvJTds0om" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -231,8 +251,14 @@
       </pane>
     </panes>
   </component>
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
@@ -243,6 +269,11 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/core/src/main/resources" />
     </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean install" />
+    </option>
   </component>
   <component name="RunManager">
     <configuration default="true" type="Applet" factoryName="Applet">
@@ -299,6 +330,7 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
