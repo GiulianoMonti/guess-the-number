@@ -4,9 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a5c3d8c-1617-4435-8c2a-bc59efd276d7" name="Default" comment="Adding application events">
+    <list default="true" id="5a5c3d8c-1617-4435-8c2a-bc59efd276d7" name="Default" comment="Finish Game Logic Closes #1">
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/academy/learnprogramming/config/GameConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/console/src/main/java/academy/learnprogramming/console/ConsoleNumberGuess.java" beforeDir="false" afterPath="$PROJECT_DIR$/console/src/main/java/academy/learnprogramming/console/ConsoleNumberGuess.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/console/src/main/java/academy/learnprogramming/console/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/console/src/main/java/academy/learnprogramming/console/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/console/target/classes/academy/learnprogramming/console/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/console/target/classes/academy/learnprogramming/console/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/academy/learnprogramming/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/academy/learnprogramming/config/AppConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/academy/learnprogramming/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/academy/learnprogramming/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/academy/learnprogramming/GameImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/academy/learnprogramming/GameImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/academy/learnprogramming/MessageGeneratorImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/academy/learnprogramming/MessageGeneratorImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/academy/learnprogramming/NumberGeneratorImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/academy/learnprogramming/NumberGeneratorImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/academy/learnprogramming/AppConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/academy/learnprogramming/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/academy/learnprogramming/Game.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/academy/learnprogramming/GameImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/academy/learnprogramming/GameImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/academy/learnprogramming/MessageGeneratorImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/academy/learnprogramming/MessageGeneratorImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/academy/learnprogramming/NumberGeneratorImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/academy/learnprogramming/NumberGeneratorImpl.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -333,7 +345,21 @@
       <option name="project" value="LOCAL" />
       <updated>1623680736142</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Finish Game Logic Closes #1">
+      <created>1623687996822</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1623687996822</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Finish Game Logic Closes #1">
+      <created>1623688022754</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1623688022754</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -383,7 +409,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Adding application events" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding application events" />
+    <MESSAGE value="Finish Game Logic Closes #1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finish Game Logic Closes #1" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/guess_the_number_game$Main.ic" NAME="Main Coverage Results" MODIFIED="1622838510416" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
