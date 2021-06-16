@@ -4,24 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a5c3d8c-1617-4435-8c2a-bc59efd276d7" name="Default" comment="using properties Closes #4 creating custom annotations closes #3">
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/academy/learnprogramming/MinNumber.java" afterDir="false" />
+    <list default="true" id="5a5c3d8c-1617-4435-8c2a-bc59efd276d7" name="Default" comment="end section 4">
+      <change afterPath="$PROJECT_DIR$/libs/lombok.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/console/src/main/java/academy/learnprogramming/console/ConsoleNumberGuess.java" beforeDir="false" afterPath="$PROJECT_DIR$/console/src/main/java/academy/learnprogramming/console/ConsoleNumberGuess.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/console/src/main/java/academy/learnprogramming/console/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/console/src/main/java/academy/learnprogramming/console/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/console/target/classes/academy/learnprogramming/console/ConsoleNumberGuess.class" beforeDir="false" afterPath="$PROJECT_DIR$/console/target/classes/academy/learnprogramming/console/ConsoleNumberGuess.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/console/target/classes/academy/learnprogramming/console/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/console/target/classes/academy/learnprogramming/console/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/console/target/console-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/console/target/console-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/core/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/src/main/java/academy/learnprogramming/GameImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/academy/learnprogramming/GameImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/src/main/java/academy/learnprogramming/MessageGeneratorImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/academy/learnprogramming/MessageGeneratorImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/academy/learnprogramming/NumberGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/academy/learnprogramming/NumberGenerator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/src/main/java/academy/learnprogramming/NumberGeneratorImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/academy/learnprogramming/NumberGeneratorImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/academy/learnprogramming/config/AppConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/academy/learnprogramming/config/GameConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/academy/learnprogramming/config/GameConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/resources/config/game.properties" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/config/game.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/target/classes/academy/learnprogramming/GameImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/academy/learnprogramming/GameImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/target/classes/academy/learnprogramming/MessageGeneratorImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/academy/learnprogramming/MessageGeneratorImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/target/classes/academy/learnprogramming/NumberGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/academy/learnprogramming/NumberGenerator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/target/classes/academy/learnprogramming/NumberGeneratorImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/academy/learnprogramming/NumberGeneratorImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/core-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/core-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -267,13 +264,15 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/libs" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/libs" />
       <recent name="$PROJECT_DIR$/core/src/main/resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -387,7 +386,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623768775880</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="end section 4">
+      <created>1623856610909</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1623856610910</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -440,7 +446,8 @@
     <MESSAGE value="Finish Game Logic Closes #1" />
     <MESSAGE value="Using Qualifiers #2" />
     <MESSAGE value="using properties Closes #4 creating custom annotations closes #3" />
-    <option name="LAST_COMMIT_MESSAGE" value="using properties Closes #4 creating custom annotations closes #3" />
+    <MESSAGE value="end section 4" />
+    <option name="LAST_COMMIT_MESSAGE" value="end section 4" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/guess_the_number_game$Main.ic" NAME="Main Coverage Results" MODIFIED="1622838510416" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
